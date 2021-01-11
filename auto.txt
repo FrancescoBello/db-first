@@ -1,0 +1,13 @@
+id                      INT, PRIMARY KEY (=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+marca                   VARCHAR(15), NOT NULL
+modello                 VARCHAR(15), NOT NULL
+cilindrata              VARCHAR (4), NOT NULL
+cambio                  VARCHAR(10), NOT NULL
+anno                    YEAR, NOT NULL
+km_percorsi             VARCHAR
+accessori               VARCHAR (200), NULL
+prezzo                  DECIMAL (5,2)
+porte                   TINYINT  NULL
+colore                  VARCHAR(10) NULL
+tipo                    VARCHAR(10) NOT NULL
+descrizione             TEXT(1000), NULL
